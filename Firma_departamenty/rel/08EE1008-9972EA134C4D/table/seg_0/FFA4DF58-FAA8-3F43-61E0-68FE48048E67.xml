@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFA4DF58-FAA8-3F43-61E0-68FE48048E67" name="Pracownik">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>04812CDB-B40D-1256-5D57-E8C489C28836</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="06438446-9DD2-D33F-AA61-1005304E318C">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>220F6304-AE1D-6F2C-A1AC-D5C2911CDDE2</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,1,100</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="EBC12D50-5016-B8C2-4341-68DEDA95745F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>0A5020B5-77E5-E51E-50EE-AAB02778E37C</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departament_ID" id="D5DEC2E5-01CD-3369-2647-4F3BDD38A5C7">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>86E90255-BDF4-08E7-364F-9779687EC96A</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="115028C8-C34D-58EE-AA42-59E8356223BC" referredColumn="3C2B6796-8928-E98E-BB06-9CA4FC2E56ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E3CA71C-2357-360B-1401-18FD2562B7FB" name="Pracownik_PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>3233338F-8334-4C51-A7AA-2ED9A325B72E</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06438446-9DD2-D33F-AA61-1005304E318C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA005FEC-713E-2476-A968-A6EBB12120AB" name="Pracownik__IDX">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:33 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89CB42A6-180A-67DC-6050-6C6CE486ED99</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5DEC2E5-01CD-3369-2647-4F3BDD38A5C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ED03492-19E1-7E32-2C3F-6DD9AA46E57C" name="Pracownik_Departament_FK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>89CB42A6-180A-67DC-6050-6C6CE486ED99</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DEC2E5-01CD-3369-2647-4F3BDD38A5C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

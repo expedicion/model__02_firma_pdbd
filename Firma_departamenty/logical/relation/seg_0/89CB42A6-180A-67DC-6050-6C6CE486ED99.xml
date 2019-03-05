@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Departament_Pracownik_Relacja" directorySegmentName="seg_0" id="89CB42A6-180A-67DC-6050-6C6CE486ED99">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:56:50 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>BF7267BE-2B79-E35A-6D2A-12E3F84B9FAA</sourcePk>
+<targetPk>3233338F-8334-4C51-A7AA-2ED9A325B72E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8487827E-8C0E-1D31-041D-701F9DF53690</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>04812CDB-B40D-1256-5D57-E8C489C28836</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

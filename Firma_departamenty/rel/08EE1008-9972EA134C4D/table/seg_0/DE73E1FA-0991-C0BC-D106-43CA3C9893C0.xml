@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE73E1FA-0991-C0BC-D106-43CA3C9893C0" name="Departament">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>8487827E-8C0E-1D31-041D-701F9DF53690</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3C2B6796-8928-E98E-BB06-9CA4FC2E56ED">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>7B751133-610B-74EA-A955-64F26AE60E80</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,1,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="EEAAD897-34DD-375E-ADB7-E63A31FA2E1C">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>F6673160-E572-D345-5499-5534CBB08565</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pracownik_ID" id="E5427CB2-AC7B-9151-80DD-6CFE0A20BE05">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>5311B441-AE3C-5BB1-1E36-C1CB39A33295</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A05EDF91-C202-E01A-4BAE-9236AC884D11" referredColumn="06438446-9DD2-D33F-AA61-1005304E318C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C4707C9-851D-9F94-CBBF-6F2E8EFF85A8" name="Departament_PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>BF7267BE-2B79-E35A-6D2A-12E3F84B9FAA</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2B6796-8928-E98E-BB06-9CA4FC2E56ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34C92B69-4835-1DD9-20CE-BDE8CBB0B905" name="Departament_ID_Nazwa_UN">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<generatorID>993464BD-A848-7329-2AE7-8C271546D477</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2B6796-8928-E98E-BB06-9CA4FC2E56ED"/>
+<colUsage columnID="EEAAD897-34DD-375E-ADB7-E63A31FA2E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63E7414F-4E73-5D54-2D5A-D866ABB1A5F0" name="Departament__IDX">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:33 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89CB42A6-180A-67DC-6050-6C6CE486ED99</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E5427CB2-AC7B-9151-80DD-6CFE0A20BE05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC90C3B9-67A8-FAF7-B39E-3F09484943B7" name="Departament_Pracownik_FK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 13:06:33 UTC</createdTime>
+<generatorID>89CB42A6-180A-67DC-6050-6C6CE486ED99</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5427CB2-AC7B-9151-80DD-6CFE0A20BE05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

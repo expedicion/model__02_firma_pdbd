@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="9D704C55-87E6-73BB-76EB-51587F969DAF">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-17 13:06:32 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DE73E1FA-0991-C0BC-D106-43CA3C9893C0" otype="Table" vid="C905CED1-F3AB-EEF5-48BB-33FB5028F38B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="210" y="109" width="215" height="159"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FFA4DF58-FAA8-3F43-61E0-68FE48048E67" otype="Table" vid="00803079-5986-04FD-FACE-7A1D7F67A4F2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="744" y="101" width="240" height="151"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="115028C8-C34D-58EE-AA42-59E8356223BC" otype="FKIndexAssociation" vid_source="C905CED1-F3AB-EEF5-48BB-33FB5028F38B" vid_target="00803079-5986-04FD-FACE-7A1D7F67A4F2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="425" y="180"/>
+<point x="744" y="180"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="A05EDF91-C202-E01A-4BAE-9236AC884D11" otype="FKIndexAssociation" vid_source="00803079-5986-04FD-FACE-7A1D7F67A4F2" vid_target="C905CED1-F3AB-EEF5-48BB-33FB5028F38B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="744" y="180"/>
+<point x="425" y="180"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

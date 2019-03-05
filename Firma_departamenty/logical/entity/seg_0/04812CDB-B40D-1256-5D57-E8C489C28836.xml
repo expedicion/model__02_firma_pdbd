@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04812CDB-B40D-1256-5D57-E8C489C28836" name="Pracownik">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:54:35 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="220F6304-AE1D-6F2C-A1AC-D5C2911CDDE2">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:54:52 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,1,100</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="0A5020B5-77E5-E51E-50EE-AAB02778E37C">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:55:21 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="86E90255-BDF4-08E7-364F-9779687EC96A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:56:50 UTC</createdTime>
+<generatorID>89CB42A6-180A-67DC-6050-6C6CE486ED99</generatorID>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<referedAttribute>7B751133-610B-74EA-A955-64F26AE60E80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3233338F-8334-4C51-A7AA-2ED9A325B72E" name="Pracownik PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-17 12:55:12 UTC</createdTime>
+<ownerDesignName>Firma_departamenty</ownerDesignName>
+<engineerTo>
+<item key="08EE1008-D222-E87A-45F2-9972EA134C4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>220F6304-AE1D-6F2C-A1AC-D5C2911CDDE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
